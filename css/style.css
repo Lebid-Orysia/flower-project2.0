@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .........header section.......... */
+.nav_bar ul {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-around;
+    gap: 30px;
+    font-size: 1em;
+    padding: 20px;
+    background-color: #e3e3e1;
+
+}
+
+a {
+    text-decoration: none;
+    color: #355E3B;
+}
+
+a:hover {
+    color: #46a558;
+}
+
+ul {
+    list-style: none;
+    font-family: "Advent Pro", sans-serif;
+    font-weight: 400;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.4em;
+    font-family: "Ms Madi", sans-serif;
+    font-weight: 400;
+    color: #000;
+
+}
+
+button {
+    background-color: #355E3B;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    font-family: "Advent Pro", sans-serif;
+    font-weight: 400;
+}
+
+button:hover {
+    background-color: #46a558;
+}
+
+/* ...........main section........ */
+.info {
+    background-image: url(../img/pexels-vlad-deep-29415806-12674302.jpg);
+    background-size: cover;
+    /* масштабування по всій площі */
+    background-repeat: no-repeat;
+    /* щоб не повторювалося */
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+hr {
+    height: 5px;
+    background-color: #355E3B;
+    border: none;
+
+}
+
+h1 {
+    font-family: "Advent Pro", sans-serif;
+    font-size: 4em;
+    margin: 50px 0 50px 0;
+    color: #355E3B;
+    letter-spacing: 5px;
+}
+
+main p {
+    font-weight: 400;
+    margin-bottom: 50px;
+    line-height: 1.5;
+    font-family: "Advent Pro", sans-serif;
+}
+
+span {
+    font-size: 1.8em;
+    font-family: "Ms Madi", sans-serif;
+    font-weight: 400;
+}
+
+.btn {
+    border-radius: 50px;
+    background-color: #355E3B;
+    height: 8vh;
+    position: relative;
+    top: 390px;
+    right: 650px;
+    font-family: "Advent Pro", sans-serif;
+}
+
+/* ..........catalog section.......... */
+.catalog {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    background-color: #e3e3e1;
+
+}
+
+.catalog_cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    margin: 100px 20px;
+    font-family: "Advent Pro", sans-serif;
+    color: #355E3B;
+}
+.catalog_cards h2,
+.catalog_cards p {
+    margin: 20px 0;
+}
+
+section img {
+    width: 20vw;
+}
+
+.btn_next {
+    position: relative;
+    bottom: 300px;
+}
+
+video {
+    display: block;
+    margin: 0 auto;
+}
+
+.location {
+    text-align: center;
+    padding-top: 30px;
+    background-color: #e3e3e1;
+    font-family: "Advent Pro", sans-serif;
+    color: #355E3B;
+}
+
+/* .........footer......... */
+.footer {
+    background-color: #e3e3e1;
+    text-align: center;
+    font-family: "Advent Pro", sans-serif;
+    letter-spacing: 1.5px;
+}
